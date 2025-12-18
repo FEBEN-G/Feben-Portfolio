@@ -13,13 +13,13 @@
 }
 
 :root {
-  /* Light Mode - Original Coffee Palette */
-  --background: #F1E6DA;
-  --foreground: #2B1E16;
-  --surface: #E3D3C2;
-  --primary: #8A5A3C;
-  --secondary: #8A5A3C;
-  --muted: #8c7e72;
+  /* Light Mode - White, Black & Brown Palette */
+  --background: #FFFFFF;
+  --foreground: #111111;
+  --surface: #F8F5F2;
+  --primary: #5C4033; /* Deep Brown */
+  --secondary: #2B1E16; /* Black-Brown */
+  --muted: #666666;
 }
 
 .dark {
