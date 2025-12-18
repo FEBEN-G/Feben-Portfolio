@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  /* Light Mode */
+  --background: #F1E6DA;
+  --foreground: #2B1E16;
+  --surface: #E3D3C2;
+  --primary: #8A5A3C; /* Accent */
+  --secondary: #8A5A3C;
+  --muted: #8c7e72;
+}
+
+.dark {
+  /* Dark Mode */
+  --background: #0E0B08;
+  --foreground: #E6DCD2;
+  --surface: #1A1410;
+  --primary: #C49A6C;
+  --secondary: #8A5A3C;
+  --muted: #A89F97;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
