@@ -4,44 +4,39 @@ import { Section } from "@/components/ui/section";
 
 const experiences = [
   {
+    company: "10 Academy / Kifiya AI Mastery",
+    role: "AI/ML Trainee",
+    period: "Oct 2025 – Present",
+    type: "Remote",
+    description: [
+      "Participating in an intensive 3-month program focused on AI/ML foundations, NLP, and model deployment.",
+      "Working on weekly real-world challenges such as sentiment analysis, NER, model evaluation, and interpretability using Python and Hugging Face.",
+      "Collaborating with peers and mentors in a fast-paced remote setting."
+    ],
+    tech: ["Python", "Hugging Face", "NLP", "AI/ML"]
+  },
+  {
+    company: "Brana Software Solution",
+    role: "Frontend Developer",
+    period: "Oct 2024 – Nov 2024",
+    type: "Inperson",
+    description: [
+      "Active front-end contributor to the Brana ERP project, implementing design mockups into functional components using Next.js.",
+      "Engaging in iterative UX/UI refinement to improve user experience.",
+      "Managed project timelines and task allocation, ensuring the successful on-time delivery of a functional product."
+    ],
+    tech: ["Next.js", "UX/UI", "ERP"]
+  },
+  {
     company: "Prodigy Infotech",
     role: "Frontend Developer",
-    period: "October 2024 – November 2024",
-    type: "Internship",
+    period: "Oct 2024 – Nov 2024",
+    type: "Remote",
     description: [
-      "Designed and implemented responsive web interfaces using HTML, CSS, and JavaScript.",
-      "Collaborated with backend developers to integrate REST APIs and improve user flows.",
-      "Built mini web applications including Stopwatch, Tic-Tac-Toe, and Weather App, handling dynamic UI updates and API integration.",
-      "Collaborated with cross-functional teams to implement interactive features across multiple projects.",
-      "Gained exposure to different frontend technologies."
+      "Developed and integrated multiple interactive web applications, enhancing user engagement and functionality.",
+      "Collaborated in an Agile team to design responsive UIs and connect front-end components to back-end services via REST APIs."
     ],
-    tech: ["React", "HTML", "CSS", "JavaScript", "REST APIs"]
-  },
-  {
-    company: "Addis Ababa University",
-    role: "Africa Mobile Developer",
-    period: "2025",
-    type: "Full-time",
-    description: [
-      "Flutter developer for a car booking and inventory management system.",
-      "Led a development team, assigning tasks and ensuring on-time delivery.",
-      "Used Flutter, Riverpod (state management), and Dio (API integration)."
-    ],
-    tech: ["Flutter", "Riverpod", "Dio", "Dart"]
-  },
-  {
-    company: "Addis Ababa University",
-    role: "Various Software Development Projects",
-    period: "Various",
-    type: "Academic",
-    description: [
-      "Worked across the full software development lifecycle.",
-      "Designed and implemented full-stack web applications using React, Angular, and Node.js.",
-      "Built and optimized databases using MySQL and MongoDB.",
-      "Applied best practices: Git, CI/CD, Agile methodologies.",
-      "Collaborated in team environments, strengthening communication and leadership skills."
-    ],
-    tech: ["React", "Angular", "Node.js", "MySQL", "MongoDB"]
+    tech: ["React", "Agile", "REST APIs"]
   }
 ];
 

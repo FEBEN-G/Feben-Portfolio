@@ -38,10 +38,7 @@ export function About() {
         </motion.h2>
         <motion.div variants={itemVariants} className="prose dark:prose-invert prose-lg text-muted">
           <p>
-            I’m a full-stack developer experienced with Node.js, Django, and the .NET framework, building scalable web and mobile applications from end to end. I enjoy working across the stack—designing clean interfaces, developing reliable APIs, and solving real-world problems with code.
-          </p>
-          <p>
-            I’m currently exploring Machine Learning with a strong interest in becoming an ML Engineer, combining software engineering fundamentals with data-driven systems. I’m passionate about clean architecture, accessible UI, and continuous learning, and I enjoy collaborating to build impactful digital products.
+            I am a 4th-year Software Engineering student at Addis Ababa University and a full-stack developer skilled in Node.js, Django, and .NET. I build scalable, user-centric web applications from clean interfaces to robust APIs, with a strong focus on solving real-world problems. Eager to evolve into an ML Engineer, I am actively exploring TensorFlow and PyTorch to integrate data-driven intelligence into the impactful products I love to create through collaboration and continuous learning.
           </p>
         </motion.div>
       </motion.div>

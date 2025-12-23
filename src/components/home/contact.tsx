@@ -81,7 +81,7 @@ export function Contact() {
                   "w-full bg-transparent border-b border-primary/30 p-2 focus:border-primary focus:outline-none transition-colors",
                   errors.name && "border-red-500"
               )}
-              placeholder="John Doe"
+              placeholder="Enter your name"
             />
             {errors.name && <p className="text-xs text-red-500 font-mono">{errors.name}</p>}
           </div>
@@ -96,7 +96,7 @@ export function Contact() {
                   "w-full bg-transparent border-b border-primary/30 p-2 focus:border-primary focus:outline-none transition-colors",
                   errors.email && "border-red-500"
               )}
-              placeholder="john@example.com"
+              placeholder="yourname@email.com"
             />
              {errors.email && <p className="text-xs text-red-500 font-mono">{errors.email}</p>}
           </div>

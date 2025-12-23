@@ -32,31 +32,52 @@ const fullStackProjects = [
     }
   },
   {
-    title: "Kotlin Car Inventory App",
-    description: "Mobile application for tracking car inventory and rental status.",
-    tech: ["Kotlin", "Firebase", "Android"],
-    links: { code: "https://github.com", demo: "#" }
+    title: "Netflix Clone",
+    description: "A responsive Netflix Clone built with React and the TMDB API, featuring dynamic banners, categorized movie rows, and a fast UI.",
+    tech: ["React", "Vite", "TMDB API"],
+    links: { 
+      code: "https://github.com/FEBEN-G/Netflix-Clone", 
+      demo: "https://feben-g.github.io/Netflix-Clone" 
+    }
   },
   {
-    title: "Academic Portfolio",
-    description: "Collection of various full-stack academic projects demonstrating core concepts.",
-    tech: ["React", "Express", "MongoDB"],
-    links: { code: "https://github.com", demo: "#" }
+    title: "Personal Expense Tracker API",
+    description: "A Django REST Framework API for tracking personal expenses with user authentication, category management, and data filtering.",
+    tech: ["Django", "DRF", "Python"],
+    links: { code: "https://github.com/FEBEN-G/personal-expense-tracker" }
+  },
+  {
+    title: "Geberena AI (Ongoing)",
+    description: "AI-Powered Agricultural Advisory & Market Linkage Platform for Ethiopian Farmers. Empowering smallholder farmers with intelligent insights to increase crop yield, reduce losses, and achieve fair market prices.",
+    tech: ["AI", "Python", "Ongoing"],
+    links: { code: "https://github.com/FEBEN-G/LeGeberew-AI" }
   }
 ];
 
 const mlProjects = [
   {
-    title: "Predictive Analytics Model",
-    description: "Machine learning model to predict user churn based on behavioral data.",
-    tech: ["Python", "Scikit-Learn", "Pandas"],
-    links: { code: "https://github.com" }
+    title: "Bank Reviews Analysis - Ethiopian Banking Apps",
+    description: "A comprehensive data analysis project for analyzing customer reviews of Ethiopian bank mobile applications from the Google Play Store.",
+    tech: ["Python", "Pandas", "NLP"],
+    links: { code: "https://github.com/FEBEN-G/bank-reviews-analysis" }
   },
   {
-    title: "Image Classification API",
-    description: "Deep learning model served via REST API for classifying industrial patterns.",
-    tech: ["TensorFlow", "FastAPI", "Docker"],
-    links: { code: "https://github.com" }
+    title: "Financial News Sentiment Analysis",
+    description: "A comprehensive analysis of financial news sentiment and its correlation with stock price movements using NLP and technical indicators.",
+    tech: ["Python", "NLP", "Financial Analysis"],
+    links: { code: "https://github.com/FEBEN-G/financial-news-analysis" }
+  },
+  {
+    title: "Solar Data Discovery",
+    description: "A comprehensive data analytics platform for evaluating solar energy potential across West African countries.",
+    tech: ["Python", "Data Analytics", "Visualization"],
+    links: { code: "https://github.com/FEBEN-G/solar-challenge-week0" }
+  },
+  {
+    title: "Insurance Risk Analytics & Predictive Modeling",
+    description: "Analysis of historical insurance claim data to uncover low-risk segments and optimize premiums through predictive modeling.",
+    tech: ["Python", "Pandas", "Scikit-Learn", "Risk Modeling"],
+    links: { code: "https://github.com/FEBEN-G/Insurance-risk-analytics" }
   }
 ];
 
